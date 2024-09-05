@@ -1,21 +1,44 @@
-import React, { Component } from 'react'
+import React from 'react';
+import './Classcomcss.css'; // Importing external CSS for styles
 
-export default class Classcom extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {count :1}
-    }
-    increment=()=>{
-        this.setState({count:this.state.count+1})
-    }
+class Counter extends React.Component {
+  state = { count: 0 }
+
+  increment = () => {
+    this.setState({
+      count: this.state.count + 1
+    });
+  }
+
+  decrement = () => {
+    this.setState({
+      count: this.state.count - 1
+    });
+  }
+
   render() {
     return (
-      <div>
-        <h1>Classcom</h1>
-
-        <h1>{this.state.count}</h1>
-        <button onClick={this.increment}>Click</button>
+      <div className='counter-container'
+      style={{
+        display : 'flex',
+        justifyContent : 'center',
+        alignItems : 'center',
+        
+        
+      }}>
+        <h1 style={{
+          fontSize :"50px",
+          color: "white"
+        }}>Couter App</h1>
+        <h2 className='counter-title'>Counter</h2>
+        <div className='counter-controls'>
+          <button className='counter-button' onClick={this.decrement}>-</button>
+          <span className='counter-display'>{this.state.count}</span>
+          <button className='counter-button' onClick={this.increment}>+</button>
+        </div>
       </div>
-    )
+    );
   }
 }
+
+export default Counter;

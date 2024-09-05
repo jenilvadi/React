@@ -1,0 +1,50 @@
+/* Counter.css */
+
+.counter-container {
+    height: 98vh;
+    width: 100%;
+    border: 2px solid red;
+    /* background-image: url(https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsr0hy4omyh9hbyc9r1mh.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 10px; */
+     /* background-color: #f9f9f9; */
+     background-image: linear-gradient(red, yellow);
+    
+  }
+  
+  .counter-title {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .counter-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .counter-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .counter-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .counter-display {
+    font-size: 50px;
+    color: white;
+  }
+  

@@ -1,12 +1,13 @@
-import React from 'react'
-import Classcom from './Classcom'
+import React from 'react';
+import Classcom from './Classcom';
 
-export default function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="App">
+     
       <Classcom/>
     </div>
-  )
-}
+  );
+};
 
+export default App;

@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#form1{
+    height: 600px;
+    width: 500px;
+    margin-left: 33%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    box-shadow: rgba(25, 36, 170, 0.5) 0px 5px 15px;
+    background: linear-gradient(rgba(255, 0, 0, 0.5),rgba(149, 0, 255, 0.5));
+}
+#form1:hover{
+    box-shadow: rgba(23, 36, 170, 0.35) 0px 5px 15px;
+    background: linear-gradient(rgba(149, 0, 255, 0.5),rgba(255, 0, 0, 0.5));
+    transition-duration: 1.2s;
+}
+input{
+    margin-top: 2%;
+    height: 35px;
+    width: 300px;
+    margin-left: 16%;
+    padding-left: 5px;
+}
+#btn-1{
+    height: 45px;
+    width: 180px;
+    margin-left: 30%;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 1px solid;
+    background-color: #fff;
+}
+#btn-1:hover{
+    background-color:wheat;
+    border: none;
+    transition-duration:0.5s;
+}
+#form2{
+    height: 650px;
+    width: 475px;
+    margin-top:-85px;
+    margin-left: 34%;
+    border-radius: 20px;
+    box-shadow: rgba(400, 50, 100, 1) 0px 5px 15px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 225, 255, 0.5));
+}
+#form2:hover{
+    background: linear-gradient(rgba(0, 225, 255, 0.5),rgba(0, 0, 0, 0.5));
+    box-shadow: rgba(224, 20, 20, 1) 0px 5px 15px;
+}
+#select1{
+    margin-top: 2%;
+    height: 35px;
+    width: 300px;
+    margin-left: 15%;
+    padding-left: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+#bt-2{
+    height: 40px;
+    width: 200px;
+    border: none;
+    margin-left: 25%;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+}
+#bt-2:hover{
+    background-color: rgb(45, 149, 156);
+}
+p{
+    margin-left: 15.5%;
+}
